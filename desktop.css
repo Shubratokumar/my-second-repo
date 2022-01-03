@@ -1,0 +1,119 @@
+/* *{
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+} */
+/* For Desktop: */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+/* navbar design starts here  */
+
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+
+    text-align: right;
+}
+.navbar-manu{
+    flex-direction: row;
+    justify-content: flex-e
+}
+.navbar-manu a{
+    padding: 5px 12px;
+    margin: 20px 4px;
+    background-color: transparent;
+}
+/* navbar design ends here */
+
+/* profile design starts here */
+.profile .top-icon{
+    /* width: 100px;
+    height:100px; */
+    right: 100px;    
+    transition: height 1s width 1s transform 1s;
+    /* here giving the height and width value is optional. */
+}
+.profile .top-icon:hover{
+    width: 120px;
+    height: 120px;
+}
+.profile-desc p{
+    color: violet;
+    margin: 0 auto;
+    margin-bottom:15px;
+    text-align: center;
+    width: 50%;
+}
+.profile .bottom-icon{
+    
+    left: 100px;
+    
+    transition: transform 0.5s;
+}
+.profile .bottom-icon:hover{
+    width: 140px;
+    height: 140px;
+}
+
+/* profile design ends here */
+
+/* about me design starts here */
+.aboutme-desc p{
+    text-align: left;
+    color: rgb(22, 2, 41);
+    font-family: 'Courier New', Courier, monospace;
+}
+.am-image{
+    margin-top: 120px;
+}
+.am-image img{
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+}
+/* about me design ends here */
+
+/* achievement-contact starts here */
+.achievement{
+    padding-right: 50px;
+}
+.contact button{    
+    width: 120px;
+    padding: 15px;  
+}
+.contact-links{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* achievement-contact ends here */
+
+/* Footer strats form here */
+.footer-manu{
+    margin-top: 12px;
+}
+.footer-manu a{
+    display: inline;
+    margin: 10px;
+    font-size: 1rem;
+    padding: 10px;
+}
+/*Footer ends  here  */
